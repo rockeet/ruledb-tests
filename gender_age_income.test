@@ -1,0 +1,15 @@
+# ascii 0 is 0x30 decimal 48
+# unicode 中 codepoint is 0x4E2D, decimal 20013
+gender_age_income:10中
+gender_age_income:05五
+# █ 的 codepoint 是 0x2588, decimal 9608, 对应 income 9608
+gender_age_income_location:18█dr5r67
+gender_age_income_location:18█dr5r67ABC
+gender_age_income_location:18█dr5r67 ABC
+gender_age_income:0 27 13000
+gender_age_income:0 23 -9001
+gender_age_income:0 23 -8999
+gender_age_income:0 230 -8999
+gender_age_income:0 230 18999
+gender_age_income:0 -230 -18999
+gender_age_income:0 -23 18999

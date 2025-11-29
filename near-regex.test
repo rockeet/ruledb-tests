@@ -1,0 +1,22 @@
+a A B C D E 12
+a A B C D E 123     xx
+a A B C D E 1234    xx
+a A B C D E 12345   xx
+a A B C D E 123456  xx
+a A B C D E 1234567 xx
+a A B C D E 12345678 yy
+a 1 2 3 4 5 15555
+a A B C D E 12345
+a A B C D E 15555
+a 1 2 3 4 5 15555
+a 1 2 3 4 5 ABC
+a 1 2 3 4 5 ABCD
+a 1 2 3 4 5 ABCDE
+a 1 2 3 4 5 ABCDEF
+a 1 2 3 4 5 ABCDEFG
+a 1 2 3 4 5 ABCDE   match
+a 1 2 3 4 5 ABCDEF  not match
+b 1 2 3 4 5 abcde
+c 1 2 3 4 5 ghij
+d 1 2 3 4 5 klmn
+e 1 2 3 4 5 stuvx

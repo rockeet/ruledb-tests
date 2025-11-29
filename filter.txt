@@ -1,0 +1,2 @@
+A{filter} and B
+A or B{filter}

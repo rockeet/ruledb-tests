@@ -1,0 +1,4 @@
+a and a and a and a and a and a and a and a and a
+a and (a or b) and (a or c) and not{{[0-9]*}}
+a and b and c and d and not{{[0-9]*}}
+a and b not c and d     not{{[0-9]*}}

@@ -1,0 +1,26 @@
+gender_age_income({{1[\i{25}-\i{48}][\i{12000}-\i{88000}]}})
+gender_age_income {{1[\i{25}-\i{48}][\i{12000}-\i{88000}]}}
+gender_age_income({{0[\i{50}-\i{55}][\i{20000}-\i{22000}]}})
+gender_age_income {{0[\i{50}-\i{55}][\i{20000}-\i{22000}]}}
+gender_age_income_location([ \
+    {{1[\i{56}-\i{57}][\i{8000}-\i{10000}]}} . \
+    ( {{dr5r[0-9a-z]*}} - {{dr5ru[0-9a-z]*}} ) \
+])
+gender_age_income_location[ \
+    {{1[\i{56}-\i{57}][\i{8000}-\i{10000}]}} . \
+    ( {{dr5r[0-9a-z]*}} - {{dr5ru[0-9a-z]*}} ) \
+]
+not(a near/3 b) and not not \
+gender_age_income_location[ \
+    {{1[\i{56}-\i{57}][\i{8000}-\i{10000}]}} . \
+    ( {{dr5r[0-9a-z]*}} - {{dr5ru[0-9a-z]*}} ) \
+]
+gender_age_income["0 ".{i{26,30}}." ".{i{12000,18000}}]
+gender_age_income["0 ".{i{20,25}}." ".{i{-9000,-8000}}]
+gender_age_income["0 ".{i{,30}}." ".{i{,12000}}]
+gender_age_income["0 ".{i{,-30}}." ".{i{,-12000}}]
+gender_age_income["0 ".{i{-30,}}." ".{i{-12000,}}]
+gender_age_income["0 ".{i{-30,26}}." ".({i{-12000,18000}}|{i{19000,20000}})]
+gender_age_income["0 ".{i{26,}}." ".({i{12000,}}&{i{11000,13000}})]
+gender_age_income["0 ".{i{26,}}." ".{i{0,}}]
+gender_age_income["0 ".{i{26,}}." ".{i{,}}]

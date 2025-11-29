@@ -1,0 +1,2 @@
+a near/3 b near/3 c near/3 d	# too many terms in near
+a near/3 not b	# near operand must be literals

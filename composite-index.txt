@@ -1,0 +1,9 @@
+gender{{1}} & age{i{20,25}} & income{i{-9000,-8000}}
+gender{{1}} & age{i{23,27}} & income{i{19000,28000}}
+gender{{1}} & age{i{23,27}} & income{i{19000,28000}} & books{{红楼梦|了不起的盖茨比}}
+gender{{1}} & age{i{23,27}} & income{i{19000,28000}} & tags{{电影|美食}}
+gender{{1234567890}} & age{i{23,27}} & income{i{19000,28000}} & tags{{电影|美食}}
+gender{{1[0-9:]*}} & age{i{23,27}} & income{i{19000,28000}} & tags{{电影|美食}} & age{i{20,28}}
+gender{{1}} & age{i{,27}} & income{i{19000,28000}} & tags{{电影|美食}} & age{i{23,}} & books{{.*}}
+gender{{.*}} & age{i{,27}} & income{i{19000,28000}} & tags{{电影|美食}} & age{i{23,}}
+age{i{23,27}} & income{i{19000,28000}} & books{{红楼梦|了不起的盖茨比}}

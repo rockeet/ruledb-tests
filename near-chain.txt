@@ -1,0 +1,1 @@
+(a or b or c or e) near/5 (A or B or C or D) near/3 (X or Y or Z)

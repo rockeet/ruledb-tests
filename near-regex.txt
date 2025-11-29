@@ -1,0 +1,10 @@
+a near/7 {{[0-9]{3,5}}}
+a near/7 {{[H-Z]{3,5}}}
+a near/7 ({{[H-Z]{3,5}}} or xx or y)
+b near/7 {{[a-f]{3,5}}}
+c near/7 {{[g-j]{3,5}}}
+d near/7 {{[k-r]{3,5}}}
+e near/7 {{[s-z]{3,5}}}
+[A near/2 F]
+[(a or b or c) near/5 (A or B or C) near/5 (x or y or z)] near/5 {{[0-9]{3,5}}}
+[((a or b or c) near/5 (A or B or C)) near/5 ((x or y or z) near/5 (X or Y or Z))] near/5 {{[0-9]{3,5}}}

@@ -1,0 +1,8 @@
+a near/5 b
+c near/5 b
+e near/5 f
+g near/5 r
+i near/5 r
+k near/5 a
+1 near/6 a
+2 near/6 a

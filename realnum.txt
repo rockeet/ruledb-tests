@@ -1,0 +1,4 @@
+latitude{r{12.36,125}} & longitude{r{8.24,}}
+latitude{r{12.36,13.}} & longitude{r{,82.4}}
+latitude{r{123.6,124}} & longitude{r{82.4,83.988}}
+latitude{r{12356,12356.8}} & longitude{r{-8214.6,82141.7}}

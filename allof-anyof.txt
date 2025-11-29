@@ -1,0 +1,2 @@
+a and b and c and d and e and f and g
+A or  B or  C or  D or  E or  F or  G

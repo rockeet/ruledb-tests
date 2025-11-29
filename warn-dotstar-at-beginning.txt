@@ -1,0 +1,2 @@
+{{.*abcd}}
+{{.*abcd}} this warn needs no '-D' and no -a[12] ('-a0')

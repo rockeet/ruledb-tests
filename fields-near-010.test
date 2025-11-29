@@ -1,0 +1,29 @@
+content:一个人 在家
+content:在家 一个人
+content:在家a.a.a.a.a.a.a.a.a.a.a.a.a.a.一个人
+content:在在在在在家一个一个一个一个人
+content:一个人 在家 很无聊 该干啥 好吗
+content:一个人 在家 很无聊 看电影 好吗
+content:一个人 在家 很无聊 做饭   很累
+content:一个人 在家 很无聊 俯卧撑 很累
+content:一个人 在家 很无聊 俯卧撑 效果
+title:一切 万物
+content:一号 a.a.a.a.a.a.aaa 文件	title:b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b..b.b.b.b.b.b.b.b.b..b.b.b.b.一块钱
+content(一本 near/5 好书) not (一条龙 near/5 服务){30,200}	content:一本 a a 好书
+content(一次 near/5 偶然) and not content(一次 near/5 性用品)
+content(一次 near/5 我爱你) - content(一次 near/5 能源)
+content:电话号 手机号 010-12345678	title:宣传 广告 降价 促销 诚意 最低6折
+
+content([电话 near/1 {{010-[0-9]{8}}}]) and \
+title((宣传 or 广告 or 降价 near/5 促销) and {{[0-9]+折}})
+title((宣传 or 广告 or 降价 near/5 促销) and {{]]))[0-9]+折}})
+title()
+()
+a and b and c )
+a ))
+a ..
+a or b or
+title(a and b and [ content(b and c) ])
+title(a and b and [ content(b and c)
+a and b and [title(c and d)]
+a and content(b and title(c))

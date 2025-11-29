@@ -1,0 +1,19 @@
+content(一个人 near/5 在家 near/3 很无聊 near/3 (该干啥 or 看电影 or 做饭 or 俯卧撑) near/3 (很累 or 效果 or 好吗))
+title(一切 near/5 万物)
+content(一号 near/5 文件) and title(一块 near/5 钱){20,500}
+content(一本 near/5 好书) not (一条龙 near/5 服务){30,200}
+content(一次 near/5 偶然) and not content(一次 near/5 性用品)
+content(一次 near/5 我爱你) - content(一次 near/5 能源)
+content(电话 near/5 {{010-[0-9]{8}}}) and content(手机号 and {{010-[0-9]{8}}}) and title((宣传 or 广告 or 降价 near/5 促销) and {{[0-9]+折}})
+content([电话 near/1 {{010-[0-9]{8}}}]) and title((宣传 or 广告 or 降价 near/5 促销) and {{[0-9]+折}})
+title((宣传 or 广告 or 降价 near/5 促销) and {{]]))[0-9]+折}})
+title()
+()
+a and b and c )
+a ))
+a ..
+a or b or
+title(a and b and [ content(b and c) ])
+title(a and b and [ content(b and c)
+a and b and [title(c and d)]
+a and content(b and title(c))
