@@ -1,1 +1,7 @@
 (a or b or c or e) near/5 ((A or B or C or D) near/3 (X or Y or Z) or (H or I or J))
+(a or b or c or e) near/5 ((A or B or C or D) near/3 (X or Y or Z) or (a near/3 (H or I or J)))
+A near/5 (B & (C | D))
+A near/5 (B & (C | D) & (E | F))
+A near/5 (B & (C | D) & (E | F) | (G | H))
+A near/5 (B | (C | D) & (E | F) | (G | H))
+A near/5 (B near/5 C | D | E)
