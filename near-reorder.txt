@@ -1,0 +1,7 @@
+# The following 3 rule will be transformed into identical form
+((A and Z) or  B or C or D or E ) near/5 F
+((A and Z) or (B or C or D or E)) near/5 F
+((B or C or D or E) or (A and Z)) near/5 F
+
+(A and B and content[C]) near/5 F	illegal rule
+(A and B and content(C)) near/5 F	illegal rule
