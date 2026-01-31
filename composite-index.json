@@ -1,0 +1,14 @@
+{"gender":  1  , "age":  20 , "income": "-9000"}
+{"gender": "1" , "age": "23", "income": "19000"}
+{"gender": "1" , "age": "23", "income": "19000", "books": "红楼梦"}
+{"gender": "1" , "age": "24", "income": "19000", "tags":"电影"}
+{"gender": "1" , "age": "24", "income": {"is_regex": true, "text": "{i{19000,20000}}"}, "tags": "电影"}
+{"gender": "1" , "age": "24", "income": {"is_regex": true, "text": "{i{19000,20000}}"}, "tags": {"is_regex": true, "text": "( 电影|美食 )"}, "comment": "()  内的空格被忽略"}
+{"gender": "1" , "age": "24", "income": {"is_regex": true, "text": "{i{19000,20000}}"}, "tags": {"is_regex": true, "text": "{{电影|美食}}"}, "books": "红楼梦", "comment": "{{}}内的空格不忽略"}
+{"gender": "1" , "age": "24", "income": {"is_regex": true, "text": "{i{19000,20000}}"}, "tags": ["电影","美食"], "comment": "故意提供错误的表达式"}
+{"gender": {"is_regex": 1, "text": "(1"} , "age": "24", "income": {"is_regex": true, "text": "{i{19000,20000}}"}, "tags": ["电影","美食"], "comment": "故意提供错误的表达式"}
+{"gender": "12", "age": {"is_regex": true, "text": "{i{19,24}}"}, "income": {"is_regex": true, "text": "{i{19999,21000}}"}, "tags": ["电影", "运动"], "books": ["红楼梦"]}
+{"gender": "1" , "i-age-income-books": {"is_regex": true, "text": "{{24\0}}.{i{19000,20000}}.\"\0\".{{水浒|红楼梦}}"}, "comment": "手动指定整个索引的表达式"}
+{"gender": "1" , "i-age-income-books": {"is_regex": true, "text": "(\"24\0\".{i{19000,20000}}.\"\0\".(红楼梦|三国演义|西游记|封神榜|{{1*水浒}}&{{2*水浒}}&{{3*水浒}}&{{4*水浒}}&{{5*水浒}}&{{6*水浒}}|茶花女|飘|于勒|\"\"))"}, "comment": "手动指定整个索引的表达式"}
+{"gender": "1" , "age": "24", "income": {"is_regex": 1, "text": "{i{19000,20000}}"}, "tags": {"is_regex": true, "text": "{{电影|美食}}"}, "books": "红楼梦", "comment": "{{}}内的空格不忽略"}
+{"gender": "1" , "age": "24", "income": {"is_regex": 2, "text": "{i{19000,20000}}"}, "comment": "故意错误: is_regex 必须是 0/1/false/true"}
