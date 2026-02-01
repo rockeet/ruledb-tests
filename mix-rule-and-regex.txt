@@ -1,0 +1,22 @@
+[ a{{.}}*?topling ] near/5 (A or B) near/5 (X or Y)	rule-1	ill
+#  ^ here needs a '.' for concat
+
+[ a.{{.}}*?topling ] near/5 (A or B) near/5 (X or Y)	rule-2	ill
+#  ^ this '.' is belong to string literal "a."
+
+[ a .{{.}}*? topling ] near/5 (A or B) near/5 (X or Y)	rule-3	ok
+#   ^ this is ok, no space is needed between '.' and '{{...}}'
+
+[a .{{.}}*?topling]near/5(A|B)near/5(X|Y)	rule-4	ok
+# |        ^------^ this is ok, no space is needed before
+# ^ this space is the unique required in this expression
+
+[ a .{{.}}*? .topling ] near/5 (A or B) near/5 (X or Y)	rule-5	ill
+#            ^ literal start with punct must be quoted: .topling
+
+[ a .{{.}}*? topling.+?*$-/%~#@^=,:;cn ] near/5 (A or B) near/5 (X or Y)	rule-6	ok
+#                   ^^^^^^^^^^^^^^^^ these chars are allowed in the middle of string literals,
+#                                    quotes can be omitted for "toplingl.+?*$-/%~#@^=:;,cn"
+
+[ a .{{.}}*?. topling ] near/5 (A or B) near/5 (X or Y)	rule-7	ill
+#           ^ here does not need '.'
