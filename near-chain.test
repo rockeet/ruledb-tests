@@ -2,3 +2,8 @@ a 1 2 3 4 5   B X
 b 1 2 3 4 5   A Y
 b 1 2 3 4 5 6 A Y
 a b x
+a B X
+a B 1 2 3 4 5 6 B Y
+a B Y g
+a 1g B Y
+a 1g B Y g
