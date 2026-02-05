@@ -1,4 +1,4 @@
-A >= 2 and B > 1	rule_1	ok
+A >= {2} and B > {1}	rule_1	ok
 (A|B|C) >= {2,5}	rule_2	ok
 (A|B|C) >= {2,} 	rule_3	ok
 (A|B|C) >= {2}  	rule_4	ill
