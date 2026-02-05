@@ -1,3 +1,4 @@
+# cmd args: -F gender -F age -F income -F books -F tags -i s{:}(gender,age,income) -i s{}(gender,age) -i (age,income,books)
 gender{{1}} & age{i{20,25}} & income{i{-9000,-8000}}
 gender{{1}} & age{i{23,27}} & income{i{19000,28000}}
 gender{{1}} & age{i{23,27}} & income{i{19000,28000}} & books{{红楼梦|了不起的盖茨比}}
