@@ -1,0 +1,141 @@
+line 1: 0
+  rule 0 with fields 3
+    field "age" with 1 hits: [0 2]{20} fullmatch-0,
+    field "gender" with 1 hits: [0 1]{1} fullmatch-0,
+    field "income" with 1 hits: [0 5]{-9000} fullmatch-0,
+line 2: 1
+  rule 1 with fields 3
+    field "age" with 1 hits: [0 2]{23} fullmatch-1,
+    field "gender" with 1 hits: [0 1]{1} fullmatch-0,
+    field "income" with 1 hits: [0 5]{19000} fullmatch-1,
+line 3: 1 2 8
+  rule 1 with fields 3
+    field "age" with 1 hits: [0 2]{23} fullmatch-1,
+    field "gender" with 1 hits: [0 1]{1} fullmatch-0,
+    field "income" with 1 hits: [0 5]{19000} fullmatch-1,
+  rule 2 with fields 4
+    field "age" with 1 hits: [0 2]{23} fullmatch-1,
+    field "books" with 1 hits: [0 9]{红楼梦} fullmatch-0,
+    field "gender" with 1 hits: [0 1]{1} fullmatch-0,
+    field "income" with 1 hits: [0 5]{19000} fullmatch-1,
+  rule 8 with fields 3
+    field "age" with 1 hits: [0 2]{23} fullmatch-1,
+    field "books" with 1 hits: [0 9]{红楼梦} fullmatch-0,
+    field "income" with 1 hits: [0 5]{19000} fullmatch-1,
+line 4: 1 3 5 7
+  rule 1 with fields 3
+    field "age" with 1 hits: [0 2]{24} fullmatch-1,
+    field "gender" with 1 hits: [0 1]{1} fullmatch-0,
+    field "income" with 1 hits: [0 5]{19000} fullmatch-1,
+  rule 3 with fields 4
+    field "age" with 1 hits: [0 2]{24} fullmatch-1,
+    field "gender" with 1 hits: [0 1]{1} fullmatch-0,
+    field "income" with 1 hits: [0 5]{19000} fullmatch-1,
+    field "tags" with 1 hits: [0 6]{电影} fullmatch-0,
+  rule 5 with fields 4
+    field "age" with 2 hits: [0 2]{24} fullmatch-1, [0 2]{24} fullmatch-2,
+    field "gender" with 1 hits: [0 1]{1} fullmatch-2,
+    field "income" with 1 hits: [0 5]{19000} fullmatch-1,
+    field "tags" with 1 hits: [0 6]{电影} fullmatch-0,
+  rule 7 with fields 4
+    field "age" with 2 hits: [0 2]{24} fullmatch-3, [0 2]{24} fullmatch-4,
+    field "gender" with 1 hits: [0 1]{1} fullmatch-3,
+    field "income" with 1 hits: [0 5]{19000} fullmatch-1,
+    field "tags" with 1 hits: [0 6]{电影} fullmatch-0,
+line 5: 1 3 5 7
+  rule 1 with fields 3
+    field "age" with 1 hits: [0 2]{24} fullmatch-1,
+    field "gender" with 1 hits: [0 3]{(1)} fullmatch-0,
+    field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
+  rule 3 with fields 4
+    field "age" with 1 hits: [0 2]{24} fullmatch-1,
+    field "gender" with 1 hits: [0 3]{(1)} fullmatch-0,
+    field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
+    field "tags" with 1 hits: [0 6]{电影} fullmatch-0,
+  rule 5 with fields 4
+    field "age" with 2 hits: [0 2]{24} fullmatch-1, [0 2]{24} fullmatch-2,
+    field "gender" with 1 hits: [0 3]{(1)} fullmatch-2,
+    field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
+    field "tags" with 1 hits: [0 6]{电影} fullmatch-0,
+  rule 7 with fields 4
+    field "age" with 2 hits: [0 2]{24} fullmatch-3, [0 2]{24} fullmatch-4,
+    field "gender" with 1 hits: [0 3]{(1)} fullmatch-3,
+    field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
+    field "tags" with 1 hits: [0 6]{电影} fullmatch-0,
+line 6: 1 3 5 7
+  rule 1 with fields 3
+    field "age" with 1 hits: [0 2]{24} fullmatch-1,
+    field "gender" with 1 hits: [0 3]{(1)} fullmatch-0,
+    field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
+  rule 3 with fields 4
+    field "age" with 1 hits: [0 2]{24} fullmatch-1,
+    field "gender" with 1 hits: [0 3]{(1)} fullmatch-0,
+    field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
+    field "tags" with 1 hits: [0 17]{( 电影|美食 )} fullmatch-0,
+  rule 5 with fields 4
+    field "age" with 2 hits: [0 2]{24} fullmatch-1, [0 2]{24} fullmatch-2,
+    field "gender" with 1 hits: [0 3]{(1)} fullmatch-2,
+    field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
+    field "tags" with 1 hits: [0 17]{( 电影|美食 )} fullmatch-0,
+  rule 7 with fields 4
+    field "age" with 2 hits: [0 2]{24} fullmatch-3, [0 2]{24} fullmatch-4,
+    field "gender" with 1 hits: [0 3]{(1)} fullmatch-3,
+    field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
+    field "tags" with 1 hits: [0 17]{( 电影|美食 )} fullmatch-0,
+line 7: 1 2 3 5 6 7 8
+  rule 1 with fields 3
+    field "age" with 1 hits: [0 2]{24} fullmatch-1,
+    field "gender" with 1 hits: [0 3]{(1)} fullmatch-0,
+    field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
+  rule 2 with fields 4
+    field "age" with 1 hits: [0 2]{24} fullmatch-1,
+    field "books" with 1 hits: [0 9]{红楼梦} fullmatch-0,
+    field "gender" with 1 hits: [0 3]{(1)} fullmatch-0,
+    field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
+  rule 3 with fields 4
+    field "age" with 1 hits: [0 2]{24} fullmatch-1,
+    field "gender" with 1 hits: [0 3]{(1)} fullmatch-0,
+    field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
+    field "tags" with 1 hits: [0 17]{{{电影|美食}}} fullmatch-0,
+  rule 5 with fields 4
+    field "age" with 2 hits: [0 2]{24} fullmatch-1, [0 2]{24} fullmatch-2,
+    field "gender" with 1 hits: [0 3]{(1)} fullmatch-2,
+    field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
+    field "tags" with 1 hits: [0 17]{{{电影|美食}}} fullmatch-0,
+  rule 6 with fields 5
+    field "age" with 2 hits: [0 2]{24} fullmatch-3, [0 2]{24} fullmatch-4,
+    field "books" with 1 hits: [0 9]{红楼梦} fullmatch-1,
+    field "gender" with 1 hits: [0 3]{(1)} fullmatch-0,
+    field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
+    field "tags" with 1 hits: [0 17]{{{电影|美食}}} fullmatch-0,
+  rule 7 with fields 4
+    field "age" with 2 hits: [0 2]{24} fullmatch-3, [0 2]{24} fullmatch-4,
+    field "gender" with 1 hits: [0 3]{(1)} fullmatch-3,
+    field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
+    field "tags" with 1 hits: [0 17]{{{电影|美食}}} fullmatch-0,
+  rule 8 with fields 3
+    field "age" with 1 hits: [0 2]{24} fullmatch-1,
+    field "books" with 1 hits: [0 9]{红楼梦} fullmatch-0,
+    field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
+line:8:Error: matcher.match(doc) = ruledb_build_regex_dfa((1) failed: src/../tools/compiler_parser.h:701: ruledb_lib_ns::CompilerParser<Expression>::ExprPtr ruledb_lib_ns::CompilerParser<Expression>::parse_atom() [with Expression = LibCompositeRegexTpl<terark::DenseDFA<unsigned int, 320> >; ExprPtr = boost::intrusive_ptr<LibCompositeRegexTpl<terark::DenseDFA<unsigned int, 320> > >]: errno=25 : Error: parse col=2: pos_beg=0, missing ending ')' : (1 : 
+line:9:Error: matcher.match(doc) = ruledb_build_regex_dfa({{电影|美食)}}) failed: src/../tools/compiler_parser.h:564: auto ruledb_lib_ns::CompilerParser<Expression>::re2_parse(terark::fstring) [with Expression = LibCompositeRegexTpl<terark::DenseDFA<unsigned int, 320> >; terark::fstring = terark::basic_fstring<char>]: errno=25 : Error: Regex Syntax Error: missing ): 电影|美食)
+line 10: 4 5 7 8
+  rule 4 with fields 4
+    field "age" with 1 hits: [0 10]{{i{19,24}}} fullmatch-1,
+    field "gender" with 1 hits: [0 12]{(1234567890)} fullmatch-1,
+    field "income" with 1 hits: [0 16]{{i{19999,21000}}} fullmatch-1,
+    field "tags" with 1 hits: [0 17]{{{电影|运动}}} fullmatch-0,
+  rule 5 with fields 4
+    field "age" with 2 hits: [0 10]{{i{19,24}}} fullmatch-1, [0 10]{{i{19,24}}} fullmatch-2,
+    field "gender" with 1 hits: [0 12]{(1234567890)} fullmatch-2,
+    field "income" with 1 hits: [0 16]{{i{19999,21000}}} fullmatch-1,
+    field "tags" with 1 hits: [0 17]{{{电影|运动}}} fullmatch-0,
+  rule 7 with fields 4
+    field "age" with 2 hits: [0 10]{{i{19,24}}} fullmatch-3, [0 10]{{i{19,24}}} fullmatch-4,
+    field "gender" with 1 hits: [0 12]{(1234567890)} fullmatch-3,
+    field "income" with 1 hits: [0 16]{{i{19999,21000}}} fullmatch-1,
+    field "tags" with 1 hits: [0 17]{{{电影|运动}}} fullmatch-0,
+  rule 8 with fields 3
+    field "age" with 1 hits: [0 10]{{i{19,24}}} fullmatch-1,
+    field "books" with 1 hits: [0 9]{红楼梦} fullmatch-0,
+    field "income" with 1 hits: [0 16]{{i{19999,21000}}} fullmatch-1,

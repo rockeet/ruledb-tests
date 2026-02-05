@@ -1,0 +1,19 @@
+line:1:Error: parse col=17: premature end: ({{1[\i{25}-\i{48}][\i{12000}-\i{88000}]}})
+line:2:Error: parse col=18: premature end: {{1[\i{25}-\i{48}][\i{12000}-\i{88000}]}}
+line:3:Error: parse col=17: premature end: ({{0[\i{50}-\i{55}][\i{20000}-\i{22000}]}})
+line:4:Error: parse col=18: premature end: {{0[\i{50}-\i{55}][\i{20000}-\i{22000}]}}
+line:5:Error: parse col=26: premature end: ([     {{1[\i{56}-\i{57}][\i{8000}-\i{10000}]}} .     ( {{dr5r[0-9a-z]*}} - {{dr5ru[0-9a-z]*}} ) ])
+line:9:Error: parse col=26: premature end: [     {{1[\i{56}-\i{57}][\i{8000}-\i{10000}]}} .     ( {{dr5r[0-9a-z]*}} - {{dr5ru[0-9a-z]*}} ) ]
+line:13:Error: parse col=54: premature end: [     {{1[\i{56}-\i{57}][\i{8000}-\i{10000}]}} .     ( {{dr5r[0-9a-z]*}} - {{dr5ru[0-9a-z]*}} ) ]
+line:18:Error: parse col=17: premature end: ["0 ".{i{26,30}}." ".{i{12000,18000}}]
+line:19:Error: parse col=17: premature end: ["0 ".{i{20,25}}." ".{i{-9000,-8000}}]
+line:20:Error: parse col=17: premature end: ["0 ".{i{,30}}." ".{i{,12000}}]
+line:21:Error: parse col=17: premature end: ["0 ".{i{,-30}}." ".{i{,-12000}}]
+line:22:Error: parse col=17: premature end: ["0 ".{i{-30,}}." ".{i{-12000,}}]
+line:23:Error: parse col=17: premature end: ["0 ".{i{-30,26}}." ".({i{-12000,18000}}|{i{19000,20000}})]
+line:24:Error: parse col=17: premature end: ["0 ".{i{26,}}." ".({i{12000,}}&{i{11000,13000}})]
+line:25:Error: parse col=17: premature end: ["0 ".{i{26,}}." ".{i{0,}}]
+line:26:Error: parse col=17: premature end: ["0 ".{i{26,}}." ".{i{,}}]
+total: 16  successed: 0  failed: 16  empty: 0
+FATAL: successed rule num is 0, database is empty
+

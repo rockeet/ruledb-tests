@@ -1,0 +1,8 @@
+line 1: 1
+  rule 1 with fields 1
+    field "zth0" with 1 hits: [0 1]{A} exact-0,
+line 3: 0 1
+  rule 0 with fields 1
+    field "zth0" with 2 hits: [0 1]{A} exact-0, [2 1]{B} exact-1,
+  rule 1 with fields 1
+    field "zth0" with 2 hits: [0 1]{A} exact-0, [2 1]{B} exact-1,

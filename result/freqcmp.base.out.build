@@ -1,0 +1,4 @@
+line:4:Error: parse_compare col=14: list cmp operand must be two num for {uniq,freq}, not one num for {freq}:   	rule_4	ill ...
+line:5:Error: col 8 n_uniq = 3 >= orlist size 3 : (A|B|C) >= {4,}
+line:7:Warning: this rule will never be recalled, skip as a dead rule
+total: 11  successed: 7  failed: 3  empty: 0

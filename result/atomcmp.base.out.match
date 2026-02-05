@@ -1,0 +1,28 @@
+line 1: 6
+  rule 6 with fields 1
+    field "zth0" with 4 hits: [0 1]{A} exact-0, [2 1]{A} exact-0, [4 1]{B} exact-1, [6 1]{B} exact-1,
+line 2: 0 4 5
+  rule 0 with fields 1
+    field "zth0" with 5 hits: [0 1]{A} exact-0, [2 1]{A} exact-0, [4 1]{A} exact-0, [6 1]{B} exact-1, [8 1]{C} exact-2,
+  rule 4 with fields 1
+    field "zth0" with 4 hits: [0 1]{A} exact-0, [2 1]{A} exact-0, [4 1]{A} exact-0, [6 1]{B} exact-1,
+  rule 5 with fields 1
+    field "zth0" with 4 hits: [0 1]{A} exact-0, [2 1]{A} exact-0, [4 1]{A} exact-0, [6 1]{B} exact-1,
+line 3: 6
+  rule 6 with fields 1
+    field "zth0" with 2 hits: [0 1]{A} exact-0, [2 1]{B} exact-1,
+line 4: 4
+  rule 4 with fields 1
+    field "zth0" with 5 hits: [0 1]{A} exact-0, [2 1]{A} exact-0, [4 1]{A} exact-0, [6 1]{A} exact-0, [8 1]{A} exact-0,
+line 5: 0
+  rule 0 with fields 1
+    field "zth0" with 3 hits: [4 1]{C} exact-2, [6 1]{C} exact-2, [8 1]{C} exact-2,
+line 6: 1 2 3 5
+  rule 1 with fields 1
+    field "zth0" with 4 hits: [4 1]{D} exact-3, [6 1]{D} exact-3, [8 1]{D} exact-3, [10 1]{B} exact-1,
+  rule 2 with fields 1
+    field "zth0" with 4 hits: [4 1]{D} exact-3, [6 1]{D} exact-3, [8 1]{D} exact-3, [10 1]{B} exact-1,
+  rule 3 with fields 1
+    field "zth0" with 4 hits: [4 1]{D} exact-3, [6 1]{D} exact-3, [8 1]{D} exact-3, [10 1]{B} exact-1,
+  rule 5 with fields 1
+    field "zth0" with 1 hits: [10 1]{B} exact-1,

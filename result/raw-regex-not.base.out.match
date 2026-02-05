@@ -1,0 +1,6 @@
+line 2: 0
+  rule 0 with fields 1
+    field "zth0" with 2 hits: [0 2]{A } regex-0, [4 2]{C} regex-0,
+line 3: 0
+  rule 0 with fields 1
+    field "zth0" with 1 hits: [0 3]{A C} regex-0,

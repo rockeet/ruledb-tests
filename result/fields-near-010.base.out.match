@@ -1,0 +1,22 @@
+line 5: 0
+  rule 0 with fields 1
+    field "content" with 5 hits: [0 9]{一个人} exact-0, [10 6]{在家} exact-1, [17 9]{很无聊} exact-2, [27 9]{该干啥} exact-3, [37 6]{好吗} exact-9,
+line 6: 0
+  rule 0 with fields 1
+    field "content" with 5 hits: [0 9]{一个人} exact-0, [10 6]{在家} exact-1, [17 9]{很无聊} exact-2, [27 9]{看电影} exact-4, [37 6]{好吗} exact-9,
+line 7: 0
+  rule 0 with fields 1
+    field "content" with 5 hits: [0 9]{一个人} exact-0, [10 6]{在家} exact-1, [17 9]{很无聊} exact-2, [27 6]{做饭} exact-5, [36 6]{很累} exact-7,
+line 8: 0
+  rule 0 with fields 1
+    field "content" with 5 hits: [0 9]{一个人} exact-0, [10 6]{在家} exact-1, [17 9]{很无聊} exact-2, [27 9]{俯卧撑} exact-6, [37 6]{很累} exact-7,
+line 9: 0
+  rule 0 with fields 1
+    field "content" with 5 hits: [0 9]{一个人} exact-0, [10 6]{在家} exact-1, [17 9]{很无聊} exact-2, [27 9]{俯卧撑} exact-6, [37 6]{效果} exact-8,
+line 10: 1
+  rule 1 with fields 1
+    field "title" with 2 hits: [0 6]{一切} exact-0, [7 6]{万物} exact-1,
+line 15: 6
+  rule 6 with fields 2
+    field "content" with 3 hits: [0 6]{电话} exact-21, [10 9]{手机号} exact-22, [20 12]{010-12345678} regex-0,
+    field "title" with 5 hits: [0 6]{宣传} exact-4, [7 6]{广告} exact-5, [14 6]{降价} exact-6, [21 6]{促销} exact-7, [41 4]{6折} regex-0,

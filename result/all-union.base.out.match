@@ -1,0 +1,64 @@
+line 1: 0 2
+  rule 0 with fields 1
+    field "zth0" with 1 hits: [0 1]{a} exact-0,
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 1]{a} regex-0,
+line 2: 0 2
+  rule 0 with fields 1
+    field "zth0" with 1 hits: [0 1]{b} exact-1,
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 1]{b} regex-0,
+line 3: 0 2
+  rule 0 with fields 1
+    field "zth0" with 1 hits: [0 1]{c} exact-2,
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 1]{c} regex-0,
+line 4: 0 2
+  rule 0 with fields 1
+    field "zth0" with 1 hits: [0 1]{d} exact-3,
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 1]{d} regex-0,
+line 5: 0 2
+  rule 0 with fields 1
+    field "zth0" with 1 hits: [0 1]{X} exact-49,
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 1]{X} regex-1,
+line 6: 0 2
+  rule 0 with fields 1
+    field "zth0" with 1 hits: [0 1]{Y} exact-50,
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 1]{Y} regex-1,
+line 7: 0 2
+  rule 0 with fields 1
+    field "zth0" with 1 hits: [0 1]{Z} exact-51,
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 1]{Z} regex-1,
+line 8: 2
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 2]{aa} regex-0,
+line 9: 2
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 2]{ab} regex-0,
+line 10: 2
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 2]{ac} regex-0,
+line 11: 2
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 3]{aaa} regex-0,
+line 12: 2
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 4]{aaaa} regex-0,
+line 13: 2
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 60]{cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc} regex-0,
+line 14: 2
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 2]{cd} regex-0,
+line 15: 1 2
+  rule 1 with fields 1
+    field "zth0" with 1 hits: [0 1]{1} exact-52,
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 1]{1} exact-52,
+line 16: 2
+  rule 2 with fields 1
+    field "zth0" with 2 hits: [0 5]{aaxyz} regex-0, [6 5]{AAXYZ} regex-1,

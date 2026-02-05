@@ -1,0 +1,4 @@
+line:23:Error: parse_unquoted_literal: col=15: literal start with punct must be quoted: +  3 b
+line:24:Error: parse_unquoted_literal: col=15: literal start with punct must be quoted: -  3 b
+line:27:Warning: 6 dup rules on lines: 17,18,19,20,21,22
+total: 18  successed: 13  failed: 2  empty: 0

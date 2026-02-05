@@ -1,0 +1,14 @@
+line 1: 0 1 2
+  rule 0 with fields 1
+    field "content" with 3 hits: [0 1]{A} exact-0, [12 1]{F} exact-6, [24 1]{Z} exact-1,
+  rule 1 with fields 1
+    field "content" with 3 hits: [0 1]{A} exact-0, [12 1]{F} exact-6, [24 1]{Z} exact-1,
+  rule 2 with fields 1
+    field "content" with 3 hits: [0 1]{A} exact-0, [12 1]{F} exact-6, [24 1]{Z} exact-1,
+line 2: 0 1 2
+  rule 0 with fields 1
+    field "content" with 2 hits: [0 1]{B} exact-2, [12 1]{F} exact-6,
+  rule 1 with fields 1
+    field "content" with 2 hits: [0 1]{B} exact-2, [12 1]{F} exact-6,
+  rule 2 with fields 1
+    field "content" with 2 hits: [0 1]{B} exact-2, [12 1]{F} exact-6,

@@ -1,0 +1,22 @@
+line 1: 0
+  rule 0 with fields 2
+    field "latitude" with 1 hits: [0 4]{12.4} fullmatch-0,
+    field "longitude" with 1 hits: [0 4]{9.24} fullmatch-0,
+line 2: 0 1
+  rule 0 with fields 2
+    field "latitude" with 1 hits: [0 5]{12.36} fullmatch-0,
+    field "longitude" with 1 hits: [0 4]{82.4} fullmatch-0,
+  rule 1 with fields 2
+    field "latitude" with 1 hits: [0 5]{12.36} fullmatch-1,
+    field "longitude" with 1 hits: [0 4]{82.4} fullmatch-1,
+line 3: 2
+  rule 2 with fields 2
+    field "latitude" with 1 hits: [0 5]{123.6} fullmatch-2,
+    field "longitude" with 1 hits: [0 4]{82.4} fullmatch-2,
+line 4: 0 3
+  rule 0 with fields 2
+    field "latitude" with 1 hits: [0 5]{12356} fullmatch-0,
+    field "longitude" with 1 hits: [0 4]{8214} fullmatch-0,
+  rule 3 with fields 2
+    field "latitude" with 1 hits: [0 5]{12356} fullmatch-3,
+    field "longitude" with 1 hits: [0 4]{8214} fullmatch-3,

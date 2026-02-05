@@ -1,0 +1,2 @@
+line:8:Error: col 0 near clause must be literals or {{regex}} or all 'or'
+total: 8  successed: 7  failed: 1  empty: 0

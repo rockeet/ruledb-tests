@@ -1,0 +1,45 @@
+line 2: 0 2
+  rule 0 with fields 1
+    field "zth0" with 2 hits: [0 1]{a} exact-0, [12 3]{123} regex-0,
+  rule 2 with fields 1
+    field "zth0" with 2 hits: [0 1]{a} exact-0, [20 2]{xx} exact-1,
+line 3: 0 2
+  rule 0 with fields 1
+    field "zth0" with 2 hits: [0 1]{a} exact-0, [12 4]{1234} regex-0,
+  rule 2 with fields 1
+    field "zth0" with 2 hits: [0 1]{a} exact-0, [20 2]{xx} exact-1,
+line 4: 0 2
+  rule 0 with fields 1
+    field "zth0" with 2 hits: [0 1]{a} exact-0, [12 5]{12345} regex-0,
+  rule 2 with fields 1
+    field "zth0" with 2 hits: [0 1]{a} exact-0, [20 2]{xx} exact-1,
+line 5: 2
+  rule 2 with fields 1
+    field "zth0" with 2 hits: [0 1]{a} exact-0, [20 2]{xx} exact-1,
+line 6: 2
+  rule 2 with fields 1
+    field "zth0" with 2 hits: [0 1]{a} exact-0, [20 2]{xx} exact-1,
+line 8: 0
+  rule 0 with fields 1
+    field "zth0" with 2 hits: [0 1]{a} exact-0, [12 5]{15555} regex-0,
+line 9: 0
+  rule 0 with fields 1
+    field "zth0" with 2 hits: [0 1]{a} exact-0, [12 5]{12345} regex-0,
+line 10: 0
+  rule 0 with fields 1
+    field "zth0" with 2 hits: [0 1]{a} exact-0, [12 5]{15555} regex-0,
+line 11: 0
+  rule 0 with fields 1
+    field "zth0" with 2 hits: [0 1]{a} exact-0, [12 5]{15555} regex-0,
+line 19: 3
+  rule 3 with fields 1
+    field "zth0" with 2 hits: [0 1]{b} exact-3, [12 5]{abcde} regex-2,
+line 20: 4
+  rule 4 with fields 1
+    field "zth0" with 2 hits: [0 1]{c} exact-4, [12 4]{ghij} regex-3,
+line 21: 5
+  rule 5 with fields 1
+    field "zth0" with 2 hits: [0 1]{d} exact-5, [12 4]{klmn} regex-4,
+line 22: 6
+  rule 6 with fields 1
+    field "zth0" with 2 hits: [0 1]{e} exact-6, [12 5]{stuvx} regex-5,

@@ -1,0 +1,2 @@
+FATAL: db.open(output/err-near.dir) = src/rule_db.cpp:428: bool topling::RuleDatabaseImpl::open(const std::string&): errno=2 : fopen(output/err-near.dir/__attr.fields.txt, r) = No such file or directory
+

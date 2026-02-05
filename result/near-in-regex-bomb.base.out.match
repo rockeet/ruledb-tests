@@ -1,0 +1,153 @@
+line 1: 8 9 10 11 12 13 14 15
+  rule 8 with fields 1
+    field "zth0" with 1 hits: [0 5]{A A Z} regex-8,
+  rule 9 with fields 1
+    field "zth0" with 1 hits: [0 5]{A A Z} regex-9,
+  rule 10 with fields 1
+    field "zth0" with 1 hits: [0 5]{A A Z} regex-10,
+  rule 11 with fields 1
+    field "zth0" with 1 hits: [0 5]{A A Z} regex-11,
+  rule 12 with fields 1
+    field "zth0" with 1 hits: [0 5]{A A Z} regex-12,
+  rule 13 with fields 1
+    field "zth0" with 1 hits: [0 5]{A A Z} regex-13,
+  rule 14 with fields 1
+    field "zth0" with 1 hits: [0 5]{A A Z} regex-14,
+  rule 15 with fields 1
+    field "zth0" with 1 hits: [0 5]{A A Z} regex-15,
+line 2: 0 9 10 11 12 13 14 15
+  rule 0 with fields 1
+    field "zth0" with 1 hits: [0 5]{A B Z} regex-0,
+  rule 9 with fields 1
+    field "zth0" with 1 hits: [0 5]{A B Z} regex-9,
+  rule 10 with fields 1
+    field "zth0" with 1 hits: [0 5]{A B Z} regex-10,
+  rule 11 with fields 1
+    field "zth0" with 1 hits: [0 5]{A B Z} regex-11,
+  rule 12 with fields 1
+    field "zth0" with 1 hits: [0 5]{A B Z} regex-12,
+  rule 13 with fields 1
+    field "zth0" with 1 hits: [0 5]{A B Z} regex-13,
+  rule 14 with fields 1
+    field "zth0" with 1 hits: [0 5]{A B Z} regex-14,
+  rule 15 with fields 1
+    field "zth0" with 1 hits: [0 5]{A B Z} regex-15,
+line 3: 1 8 10 11 12 13 14 15
+  rule 1 with fields 1
+    field "zth0" with 1 hits: [0 5]{A C Z} regex-1,
+  rule 8 with fields 1
+    field "zth0" with 1 hits: [0 5]{A C Z} regex-8,
+  rule 10 with fields 1
+    field "zth0" with 1 hits: [0 5]{A C Z} regex-10,
+  rule 11 with fields 1
+    field "zth0" with 1 hits: [0 5]{A C Z} regex-11,
+  rule 12 with fields 1
+    field "zth0" with 1 hits: [0 5]{A C Z} regex-12,
+  rule 13 with fields 1
+    field "zth0" with 1 hits: [0 5]{A C Z} regex-13,
+  rule 14 with fields 1
+    field "zth0" with 1 hits: [0 5]{A C Z} regex-14,
+  rule 15 with fields 1
+    field "zth0" with 1 hits: [0 5]{A C Z} regex-15,
+line 4: 2 8 9 11 12 13 14 15
+  rule 2 with fields 1
+    field "zth0" with 1 hits: [0 5]{A D Z} regex-2,
+  rule 8 with fields 1
+    field "zth0" with 1 hits: [0 5]{A D Z} regex-8,
+  rule 9 with fields 1
+    field "zth0" with 1 hits: [0 5]{A D Z} regex-9,
+  rule 11 with fields 1
+    field "zth0" with 1 hits: [0 5]{A D Z} regex-11,
+  rule 12 with fields 1
+    field "zth0" with 1 hits: [0 5]{A D Z} regex-12,
+  rule 13 with fields 1
+    field "zth0" with 1 hits: [0 5]{A D Z} regex-13,
+  rule 14 with fields 1
+    field "zth0" with 1 hits: [0 5]{A D Z} regex-14,
+  rule 15 with fields 1
+    field "zth0" with 1 hits: [0 5]{A D Z} regex-15,
+line 5: 3 8 9 10 12 13 14 15
+  rule 3 with fields 1
+    field "zth0" with 1 hits: [0 5]{A E Z} regex-3,
+  rule 8 with fields 1
+    field "zth0" with 1 hits: [0 5]{A E Z} regex-8,
+  rule 9 with fields 1
+    field "zth0" with 1 hits: [0 5]{A E Z} regex-9,
+  rule 10 with fields 1
+    field "zth0" with 1 hits: [0 5]{A E Z} regex-10,
+  rule 12 with fields 1
+    field "zth0" with 1 hits: [0 5]{A E Z} regex-12,
+  rule 13 with fields 1
+    field "zth0" with 1 hits: [0 5]{A E Z} regex-13,
+  rule 14 with fields 1
+    field "zth0" with 1 hits: [0 5]{A E Z} regex-14,
+  rule 15 with fields 1
+    field "zth0" with 1 hits: [0 5]{A E Z} regex-15,
+line 6: 4 8 9 10 11 13 14 15
+  rule 4 with fields 1
+    field "zth0" with 1 hits: [0 5]{A F Z} regex-4,
+  rule 8 with fields 1
+    field "zth0" with 1 hits: [0 5]{A F Z} regex-8,
+  rule 9 with fields 1
+    field "zth0" with 1 hits: [0 5]{A F Z} regex-9,
+  rule 10 with fields 1
+    field "zth0" with 1 hits: [0 5]{A F Z} regex-10,
+  rule 11 with fields 1
+    field "zth0" with 1 hits: [0 5]{A F Z} regex-11,
+  rule 13 with fields 1
+    field "zth0" with 1 hits: [0 5]{A F Z} regex-13,
+  rule 14 with fields 1
+    field "zth0" with 1 hits: [0 5]{A F Z} regex-14,
+  rule 15 with fields 1
+    field "zth0" with 1 hits: [0 5]{A F Z} regex-15,
+line 7: 5 8 9 10 11 12 14 15
+  rule 5 with fields 1
+    field "zth0" with 1 hits: [0 5]{A G Z} regex-5,
+  rule 8 with fields 1
+    field "zth0" with 1 hits: [0 5]{A G Z} regex-8,
+  rule 9 with fields 1
+    field "zth0" with 1 hits: [0 5]{A G Z} regex-9,
+  rule 10 with fields 1
+    field "zth0" with 1 hits: [0 5]{A G Z} regex-10,
+  rule 11 with fields 1
+    field "zth0" with 1 hits: [0 5]{A G Z} regex-11,
+  rule 12 with fields 1
+    field "zth0" with 1 hits: [0 5]{A G Z} regex-12,
+  rule 14 with fields 1
+    field "zth0" with 1 hits: [0 5]{A G Z} regex-14,
+  rule 15 with fields 1
+    field "zth0" with 1 hits: [0 5]{A G Z} regex-15,
+line 8: 6 8 9 10 11 12 13 15
+  rule 6 with fields 1
+    field "zth0" with 1 hits: [0 5]{A H Z} regex-6,
+  rule 8 with fields 1
+    field "zth0" with 1 hits: [0 5]{A H Z} regex-8,
+  rule 9 with fields 1
+    field "zth0" with 1 hits: [0 5]{A H Z} regex-9,
+  rule 10 with fields 1
+    field "zth0" with 1 hits: [0 5]{A H Z} regex-10,
+  rule 11 with fields 1
+    field "zth0" with 1 hits: [0 5]{A H Z} regex-11,
+  rule 12 with fields 1
+    field "zth0" with 1 hits: [0 5]{A H Z} regex-12,
+  rule 13 with fields 1
+    field "zth0" with 1 hits: [0 5]{A H Z} regex-13,
+  rule 15 with fields 1
+    field "zth0" with 1 hits: [0 5]{A H Z} regex-15,
+line 9: 7 8 9 10 11 12 13 14
+  rule 7 with fields 1
+    field "zth0" with 1 hits: [0 5]{A I Z} regex-7,
+  rule 8 with fields 1
+    field "zth0" with 1 hits: [0 5]{A I Z} regex-8,
+  rule 9 with fields 1
+    field "zth0" with 1 hits: [0 5]{A I Z} regex-9,
+  rule 10 with fields 1
+    field "zth0" with 1 hits: [0 5]{A I Z} regex-10,
+  rule 11 with fields 1
+    field "zth0" with 1 hits: [0 5]{A I Z} regex-11,
+  rule 12 with fields 1
+    field "zth0" with 1 hits: [0 5]{A I Z} regex-12,
+  rule 13 with fields 1
+    field "zth0" with 1 hits: [0 5]{A I Z} regex-13,
+  rule 14 with fields 1
+    field "zth0" with 1 hits: [0 5]{A I Z} regex-14,

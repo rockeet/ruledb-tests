@@ -1,0 +1,6 @@
+line:1:Error: parse col=3: missing ending ']' : {{.}}*?topling ] near/5 (A or B) near/5 (X or Y)	rule-1	ill
+line:4:Error: parse col=4: missing ending ']' : {{.}}*?topling ] near/5 (A or B) near/5 (X or Y)	rule-2	ill
+line:14:Error: parse_unquoted_literal: col=13: literal start with punct must be quoted: .topling ] near/5 (A or B) near/5 (X or Y)	rule-5	ill
+line:17:Error: parse col=32: missing ending ']' : =,:;cn ] near/5 (A or B) near/5 (X or Y)	rule-6	ok
+line:21:Error: parse_unquoted_literal: col=12: literal start with punct must be quoted: . topling ] near/5 (A or B) near/5 (X or Y)	rule-7	ill
+total: 16  successed: 2  failed: 5  empty: 0

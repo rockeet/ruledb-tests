@@ -1,0 +1,2 @@
+line:7:Error: parse_quoted_literal: col=109: empty string literal is not allowed
+total: 6  successed: 3  failed: 1  empty: 0

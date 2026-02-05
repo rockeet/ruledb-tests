@@ -1,0 +1,11 @@
+line:9:Error: Regex Syntax Error: missing ): ]]))[0-9]+折
+line:10:Error: parse col=6: empty field() expr is not allowed
+line:11:Error: parse col=1: empty () is not allowed
+line:12:Error: parse col=14: premature end: )
+line:13:Error: parse col=2: premature end: ))
+line:14:Error: parse col=2: premature end: ..
+line:15:Error: parse col=9: premature end of code, expecting more
+line:16:Error: parse col=28: field in regex is not allowed: content
+line:17:Error: parse col=28: field in regex is not allowed: content
+line:18:Error: parse col=19: field in regex is not allowed: title
+total: 19  successed: 9  failed: 10  empty: 0

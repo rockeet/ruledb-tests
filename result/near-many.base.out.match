@@ -1,0 +1,20 @@
+line 1: 12936
+  rule 12936 with fields 1
+    field "zth0" with 2 hits: [0 6]{龙眼} exact-5284, [17 9]{派出所} exact-1549,
+line 2: 11150 11151 11152 11153 12945 12946 12947 12948
+  rule 11150 with fields 1
+    field "zth0" with 2 hits: [0 6]{龙腾} exact-4748, [17 6]{虎跃} exact-4747,
+  rule 11151 with fields 1
+    field "zth0" with 2 hits: [0 6]{龙腾} exact-4748, [17 6]{虎跃} exact-4747,
+  rule 11152 with fields 1
+    field "zth0" with 2 hits: [0 6]{龙腾} exact-4748, [17 6]{虎跃} exact-4747,
+  rule 11153 with fields 1
+    field "zth0" with 2 hits: [0 6]{龙腾} exact-4748, [17 6]{虎跃} exact-4747,
+  rule 12945 with fields 1
+    field "zth0" with 2 hits: [0 6]{龙腾} exact-4748, [17 6]{虎跃} exact-4747,
+  rule 12946 with fields 1
+    field "zth0" with 2 hits: [0 6]{龙腾} exact-4748, [17 6]{虎跃} exact-4747,
+  rule 12947 with fields 1
+    field "zth0" with 2 hits: [0 6]{龙腾} exact-4748, [17 6]{虎跃} exact-4747,
+  rule 12948 with fields 1
+    field "zth0" with 2 hits: [0 6]{龙腾} exact-4748, [17 6]{虎跃} exact-4747,

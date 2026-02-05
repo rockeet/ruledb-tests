@@ -1,0 +1,5 @@
+line:1:Error: col 0 near clause must be literals or {{regex}} or all 'or'
+line:2:Error: col 0 near clause must be literals or {{regex}} or all 'or'
+total: 2  successed: 0  failed: 2  empty: 0
+FATAL: successed rule num is 0, database is empty
+

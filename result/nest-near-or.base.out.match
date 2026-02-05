@@ -1,0 +1,25 @@
+line 1: 0 1
+  rule 0 with fields 1
+    field "zth0" with 3 hits: [0 9]{龙山县} exact-0, [10 12]{交通运输} exact-2, [23 12]{党组书记} exact-4,
+  rule 1 with fields 1
+    field "zth0" with 3 hits: [0 9]{龙山县} exact-0, [10 12]{交通运输} exact-2, [23 12]{党组书记} exact-4,
+line 2: 0 1
+  rule 0 with fields 1
+    field "zth0" with 3 hits: [0 9]{龙山县} exact-0, [10 9]{交通厅} exact-3, [22 12]{党组书记} exact-4,
+  rule 1 with fields 1
+    field "zth0" with 3 hits: [0 9]{龙山县} exact-0, [10 9]{交通厅} exact-3, [22 12]{党组书记} exact-4,
+line 3: 0 1
+  rule 0 with fields 1
+    field "zth0" with 3 hits: [0 9]{龙山县} exact-0, [10 9]{交通厅} exact-3, [22 6]{局长} exact-5,
+  rule 1 with fields 1
+    field "zth0" with 3 hits: [0 9]{龙山县} exact-0, [10 9]{交通厅} exact-3, [22 6]{局长} exact-5,
+line 5: 0 1
+  rule 0 with fields 1
+    field "zth0" with 2 hits: [0 9]{龙山县} exact-0, [10 9]{李柯宁} exact-6,
+  rule 1 with fields 1
+    field "zth0" with 2 hits: [0 9]{龙山县} exact-0, [10 9]{李柯宁} exact-6,
+line 6: 0 1
+  rule 0 with fields 1
+    field "zth0" with 2 hits: [0 9]{湘西州} exact-1, [10 9]{李柯宁} exact-6,
+  rule 1 with fields 1
+    field "zth0" with 2 hits: [0 9]{湘西州} exact-1, [10 9]{李柯宁} exact-6,

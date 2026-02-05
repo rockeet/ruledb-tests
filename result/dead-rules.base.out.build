@@ -1,0 +1,4 @@
+line:1:Error: parse col=2783: pos_beg=2770, missing ending ')' : (account_type : [netizen]) and (is_noise[0]) and not (律师咨询 or 咨询 or 广告 or 宣传 or 科普 or 正能量 or 如何处理 or 妙招 or 技巧 or 方法 or 学会 or 教你 or 支招 or 指南 or 攻略 or 智慧 or 经营 or 相处之道 or  法律 or 律师 or 法条 or 普法 or 法律知识 or 权益 or 民法典 or 法律解读 or 法律咨询 or 科普 or 讲解 or 分析 or 案例分析 or 知识 or 小知识 or 干货 or 原理 or  心理学 or 原因 or 感谢 or 谢谢 or 庆祝 or 预警 or 新闻 or 省政府印发 or 今日话题 or 要点 or 新规 or 会议召开 or 部署会 or 动员会 or 召开 or 衢州有礼 or 产业集聚 or  解释 or 杭州 or 镇海 or 上海 or 广东 or 细菌战 or 高温 or 丹麦 or 侦破纪实 or 浙BA or 于朦胧 or 日本 or 河南 or 于朦胧 or 四川 or 新闻 or 河南 or 西贝 or 江西 or  北京 or 江苏 or 广东 or 法国 or 西安 or 湖北 or 案件 or 佛山 or 早报 or 湖南 or 浙BA or 美国 or 阅兵 or 纪实 or 安徽 or 印度 or 吴艳妮 or 树立正确价值观 or  虐待动物 or 动物 or 原子能 or 89岁老头 or 乌克兰 or 台湾 or 广西 or 桦加沙)	512_87052
+total: 1  successed: 0  failed: 1  empty: 0
+FATAL: successed rule num is 0, database is empty
+

@@ -1,0 +1,24 @@
+line 1: 0
+  rule 0 with fields 1
+    field "zth0" with 3 hits: [0 1]{a} exact-0, [14 1]{B} exact-5, [16 1]{X} exact-8,
+line 2: 0
+  rule 0 with fields 1
+    field "zth0" with 3 hits: [0 1]{b} exact-1, [14 1]{A} exact-4, [16 1]{Y} exact-9,
+line 5: 0
+  rule 0 with fields 1
+    field "zth0" with 3 hits: [0 1]{a} exact-0, [2 1]{B} exact-5, [4 1]{X} exact-8,
+line 7: 0
+  rule 0 with fields 1
+    field "zth0" with 3 hits: [0 1]{a} exact-0, [2 1]{B} exact-5, [4 1]{Y} exact-9,
+line 8: 0 1 2
+  rule 0 with fields 1
+    field "zth0" with 3 hits: [0 1]{a} exact-0, [5 1]{B} exact-5, [7 1]{Y} exact-9,
+  rule 1 with fields 1
+    field "zth0" with 3 hits: [0 4]{a 1g} regex-0, [5 1]{B} exact-5, [7 1]{Y} exact-9,
+  rule 2 with fields 1
+    field "zth0" with 3 hits: [0 4]{a 1g} regex-1, [5 1]{B} exact-5, [7 1]{Y} exact-9,
+line 9: 0 2
+  rule 0 with fields 1
+    field "zth0" with 3 hits: [0 1]{a} exact-0, [5 1]{B} exact-5, [7 1]{Y} exact-9,
+  rule 2 with fields 1
+    field "zth0" with 3 hits: [0 4]{a 1g} regex-1, [5 1]{B} exact-5, [7 1]{Y} exact-9,

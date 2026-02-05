@@ -1,0 +1,4 @@
+line:6:Error: col 13: Unexpected F in near clause
+line:7:Error: col 13: Unexpected F in near clause
+line:8:Warning: 3 dup rules on lines: 2,3,4
+total: 6  successed: 3  failed: 2  empty: 0
