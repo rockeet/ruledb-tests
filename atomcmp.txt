@@ -1,0 +1,11 @@
+A >= B & C >=*1.5 D
+A <  B & C  <*1.5 D
+A <  B & C  <*4095 D	ok , exactly the valid max factor
+A <  B & C  <*.000245 D	ok , exactly the valid min factor
+A >  B
+A != B
+A == B
+A <  B & C  <*4096 D	ill, exactly exceeds limit, factor too large
+A <  B & C  <*.000244 D	ill, exactly exceeds limit, factor too small
+A <  B & C  <*.000248D	ill, D must be seperated
+A <  B & C  <*.000248	ill, expecting expression after .000248
