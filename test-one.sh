@@ -7,7 +7,7 @@ envargs=(
     USE_FAST_EVAL=0
 )
 prog=`realpath ../dbg/rule_db_build.exe`
-demo=`realpath ../rls/match_doc.exe`
+demo=`realpath ../dbg/match_doc.exe`
 stem=`basename -s .txt $1`
 mkdir -p output result
 rm -rf ${stem}.dir
