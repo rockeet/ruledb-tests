@@ -17,8 +17,8 @@ args=(
     -o output/${stem}.dir
     ${stem}.txt
 )
-env ${envargs[@]} ${prog} -S1 ${args[@]}     2>&1 | grep -v time > result/${stem}.${TEST_RESULT_TYPE}.out.build
-env ${envargs[@]} make -C output/${stem}.dir 2>&1 | grep -v time > result/${stem}.${TEST_RESULT_TYPE}.out.make
+env ${envargs[@]} ${prog} -S1 ${args[@]}       2>&1 | grep -v time > result/${stem}.${TEST_RESULT_TYPE}.out.build
+(cd output/${stem}.dir;env ${envargs[@]} make) 2>&1 | grep -v time > result/${stem}.${TEST_RESULT_TYPE}.out.make
 env ${envargs[@]} ${demo} -pq -I -d output/${stem}.dir ${stem}.test > result/${stem}.${TEST_RESULT_TYPE}.out.match 2>&1
 if [[ ${TEST_RESULT_TYPE} != base && -f result/${stem}.base.out.match ]]; then
     echo run diff ${stem}
