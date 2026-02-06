@@ -1,4 +1,3 @@
-make: Entering directory '/home/leipeng/osc/doc-rule/tests/output/composite-index.dir'
 rule_regex_build.exe -q -o gender.bl.dfa -O gender.bl.big -b gender.bl.bmf gender.bl.term
 clustering: loop=02 cluster-num=00000001 states=000000028, good luck, completely unioned!
 Original__UnionDFA: states=71 transitions=3155 mem=8628 | per-state: trans=44.437 mem=121.521 | fragmem=88
@@ -29,4 +28,3 @@ Original__UnionDFA: states=34 transitions=34 mem=3264 | per-state: trans=1.000 m
 Minimized_UnionDFA: states=18 transitions=19 mem=1728 | per-state: trans=1.056 mem=96.000 | fragmem=0
 Pathziped_UnionDFA: states=8 transitions=9 mem=784 | per-state: trans=1.125 mem=98.000 | fragmem=0
 total: 1  successed: 1  failed: 0  empty: 0
-make: Leaving directory '/home/leipeng/osc/doc-rule/tests/output/composite-index.dir'

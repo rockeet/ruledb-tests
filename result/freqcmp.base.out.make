@@ -1,4 +1,3 @@
-make: Entering directory '/home/leipeng/osc/doc-rule/tests/output/freqcmp.dir'
 ac_build.exe -s '	' -e 1 -d content.ac.dfa content.ac.term
 int run() [with Au = terark::Aho_Corasick<terark::AutomataAsBaseDFA<terark::AC_State<terark::State32_256> > >]
 lineno=5, Trie[mem_size=144 states=6 transitions=5]
@@ -11,4 +10,3 @@ Original__UnionDFA: states=30 transitions=948 mem=3056 | per-state: trans=31.600
 Minimized_UnionDFA: states=16 transitions=476 mem=1624 | per-state: trans=29.750 mem=101.500 | fragmem=0
 Pathziped_UnionDFA: states=12 transitions=472 mem=1248 | per-state: trans=39.333 mem=104.000 | fragmem=0
 total: 1  successed: 1  failed: 0  empty: 0
-make: Leaving directory '/home/leipeng/osc/doc-rule/tests/output/freqcmp.dir'

@@ -1,4 +1,3 @@
-make: Entering directory '/home/leipeng/osc/doc-rule/tests/output/all-union.dir'
 ac_build.exe -s '	' -e 1 -d content.ac.dfa content.ac.term
 int run() [with Au = terark::Aho_Corasick<terark::AutomataAsBaseDFA<terark::AC_State<terark::State32_256> > >]
 lineno=55, Trie[mem_size=1356 states=56 transitions=55]
@@ -11,4 +10,3 @@ Original__UnionDFA: states=24 transitions=179 mem=2316 | per-state: trans=7.458 
 Minimized_UnionDFA: states=13 transitions=171 mem=1260 | per-state: trans=13.154 mem=96.923 | fragmem=0
 Pathziped_UnionDFA: states=10 transitions=168 mem=976 | per-state: trans=16.800 mem=97.600 | fragmem=0
 total: 2  successed: 2  failed: 0  empty: 0
-make: Leaving directory '/home/leipeng/osc/doc-rule/tests/output/all-union.dir'
