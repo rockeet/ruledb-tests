@@ -1,2 +1,2 @@
-FATAL: db.open(output/gender_age_income.dir) = src/rule_db.cpp:428: bool topling::RuleDatabaseImpl::open(const std::string&): errno=2 : fopen(output/gender_age_income.dir/__attr.fields.txt, r) = No such file or directory
+FATAL: db.open(output/gender_age_income.dir) = src/rule_db.cpp:432: bool topling::RuleDatabaseImpl::open(const std::string&): errno=2 : fopen(output/gender_age_income.dir/__attr.fields.txt, r) = No such file or directory
 
