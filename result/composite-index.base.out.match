@@ -117,8 +117,8 @@ line 7: 1 2 3 5 6 7 8
     field "age" with 1 hits: [0 2]{24} fullmatch-1,
     field "books" with 1 hits: [0 9]{红楼梦} fullmatch-0,
     field "income" with 1 hits: [0 16]{{i{19000,20000}}} fullmatch-1,
-line:8:Error: matcher.match(doc) = ruledb_build_regex_dfa((1) failed: src/../tools/compiler_parser.h:710: ruledb_lib_ns::CompilerParser<Expression>::ExprPtr ruledb_lib_ns::CompilerParser<Expression>::parse_atom() [with Expression = LibCompositeRegexTpl<terark::DenseDFA<unsigned int, 320> >; ExprPtr = boost::intrusive_ptr<LibCompositeRegexTpl<terark::DenseDFA<unsigned int, 320> > >]: errno=25 : Error: parse col=2: pos_beg=0, missing ending ')' : (1 : 
-line:9:Error: matcher.match(doc) = ruledb_build_regex_dfa({{电影|美食)}}) failed: src/../tools/compiler_parser.h:573: auto ruledb_lib_ns::CompilerParser<Expression>::re2_parse(terark::fstring) [with Expression = LibCompositeRegexTpl<terark::DenseDFA<unsigned int, 320> >; terark::fstring = terark::basic_fstring<char>]: errno=25 : Error: Regex Syntax Error: missing ): 电影|美食)
+line:8:Error: matcher.match(doc) = ruledb_build_regex_dfa((1) failed: src/../tools/compiler_parser.h:659: ruledb_lib_ns::CompilerParser<Expression>::ExprPtr ruledb_lib_ns::CompilerParser<Expression>::parse_atom() [with Expression = LibCompositeRegexTpl<terark::DenseDFA<unsigned int, 320> >; ExprPtr = boost::intrusive_ptr<LibCompositeRegexTpl<terark::DenseDFA<unsigned int, 320> > >]: errno=25 : Error: parse col=2: pos_beg=0, missing ending ')' : (1 : 
+line:9:Error: matcher.match(doc) = ruledb_build_regex_dfa({{电影|美食)}}) failed: src/../tools/compiler_parser.h:522: auto ruledb_lib_ns::CompilerParser<Expression>::re2_parse(terark::fstring) [with Expression = LibCompositeRegexTpl<terark::DenseDFA<unsigned int, 320> >; terark::fstring = terark::basic_fstring<char>]: errno=25 : Error: Regex Syntax Error: missing ): 电影|美食)
 line 10: 4 5 7 8
   rule 4 with fields 4
     field "age" with 1 hits: [0 10]{{i{19,24}}} fullmatch-1,
