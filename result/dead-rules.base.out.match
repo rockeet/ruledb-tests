@@ -1,2 +1,2 @@
-FATAL: db.open(output/dead-rules.dir) = src/rule_db.cpp:437: bool topling::RuleDatabaseImpl::open(const std::string&): errno=2 : fopen(output/dead-rules.dir/__attr.fields.txt, r) = No such file or directory
+FATAL: db.open(output/dead-rules.dir) = src/rule_db.cpp:441: bool topling::RuleDatabaseImpl::open(const std::string&): errno=2 : fopen(output/dead-rules.dir/__attr.fields.txt, r) = No such file or directory
 
