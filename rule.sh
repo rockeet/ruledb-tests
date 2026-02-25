@@ -5,6 +5,7 @@ if [ $# -lt 1 ]; then
 fi
 set -xe
 envargs=(
+    AC_BUILD_PRINT_STAT=1
     DEBUG_LOG_LEVEL=0
     REGEX_BUILD_PRINT_PARSE_TREE=0
     USE_FAST_EVAL=0
