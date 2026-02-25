@@ -1,0 +1,8 @@
+A near/2 B >= {1}
+A near/2 B >= "A B" >= {1}
+A near/2 B >  "A B" >= {1}
+A near/2 B >= B near/2 C >= "B C"
+A near/2 B >= B near/2 C >= "B C" >= {1}
+A near/2 B >= B near/2 C >  "B C" >= {1}
+A near/2 B >= B near/2 (C or D) >= "B D"
+A near/2 B >= B near/2 (C or D) near/2 E >= "B D" >= {1}
