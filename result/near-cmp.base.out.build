@@ -1,1 +1,3 @@
-total: 11  successed: 11  failed: 0  empty: 0
+line:12:Warning: parse_compare col=39: freq <= uniq: {1}) ... freq ignored
+line:13:Error: col 0: >= {freq} in middle of cmp seq
+total: 13  successed: 12  failed: 1  empty: 0
