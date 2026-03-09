@@ -1,3 +1,5 @@
+hy_build.exe -l -o content.ac.hys content.ac.term
+hy_build.exe -l -o title.ac.hys title.ac.term
 ac_build.exe -s '	' -e 1 -d content.ac.dfa content.ac.term
 int run() [with Au = terark::Aho_Corasick<terark::AutomataAsBaseDFA<terark::AC_State<terark::State32_256> > >]
 lineno=25, Trie[mem_size=2976 states=135 transitions=134]
