@@ -10,10 +10,17 @@ envargs=(
     REGEX_BUILD_PRINT_PARSE_TREE=0
     USE_FAST_EVAL=0
 )
-export LD_LIBRARY_PATH=`realpath ../ruledb-pkg/lib`:`realpath ../../topling-ark/build/Linux-*g++*/lib_shared`
-export PATH=`realpath ../ruledb-pkg/bin`:`realpath ../dbg`:$PATH
-prog=`realpath ../dbg/rule_db_build.exe`
-demo=`realpath ../rls/match_doc.exe`
+BUILD_ROOT=(`echo ../build/Linux-*-${CXX}*`)
+if [ ${#BUILD_ROOT[@]} -gt 1 ]; then
+    echo More than on build dir, please set env CXX to select one of them:
+    ll ../build/
+    exit 1
+fi
+BUILD_ROOT=`realpath ${BUILD_ROOT}`
+export LD_LIBRARY_PATH=${BUILD_ROOT}/lib
+export PATH=`realpath ../ruledb-pkg/bin`:${BUILD_ROOT}/dbg/tools:$PATH
+prog=`realpath ${BUILD_ROOT}/dbg/tools/rule_db_build.exe`
+demo=`realpath ${BUILD_ROOT}/rls/tools/match_doc.exe`
 stem=${1%.txt}
 rm -rf output/${stem}.dir
 mkdir -p output/${stem}.dir
