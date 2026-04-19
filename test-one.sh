@@ -1,5 +1,12 @@
 #!/bin/bash
-export LD_LIBRARY_PATH=`realpath ../ruledb-pkg/lib`:`realpath ../../topling-ark/build/Linux-*g++*/lib_shared`
+builds=(`realpath ../build/*`)
+if [[ ${#builds[@]} -ne 1 ]]; then
+    echo "builds dir num must be 1, but is = ${#builds[@]} : ${builds[@]}" >&2
+    exit 1
+fi
+export LD_LIBRARY_PATH=`realpath ../ruledb-pkg/lib`:${builds}/lib
+#export RULEDB_FORCE_AC=${RULEDB_FORCE_AC:-1}
+export RULEDB_USE_COMPOUND_REGEX=${RULEDB_USE_COMPOUND_REGEX:-1}
 export PATH=`realpath ../ruledb-pkg/bin`:`realpath ../dbg`:$PATH
 envargs=(
     DEBUG_LOG_LEVEL=0
@@ -10,7 +17,7 @@ prog=`realpath ../dbg/rule_db_build.exe`
 demo=`realpath ../dbg/match_doc.exe`
 stem=`basename -s .txt $1`
 mkdir -p output result
-rm -rf ${stem}.dir
+rm -rf output/${stem}.dir
 TEST_RESULT_TYPE=${TEST_RESULT_TYPE:-curr}
 args=(
     `sed -n '1s/^# cmd args://p' ${stem}.txt`
