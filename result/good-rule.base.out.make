@@ -7,7 +7,7 @@ creating double array AC Automata...
 write double array AC DFA mmap file: content.ac.dfa
 rule_regex_build.exe -q -o content.re.dfa -O content.re.big -b content.re.bmf content.re.term
 clustering: loop=02 cluster-num=00000001 states=000000022, good luck, completely unioned!
-Original__UnionDFA: states=56 transitions=1009 mem=5744 | per-state: trans=18.018 mem=102.571 | fragmem=84
-Minimized_UnionDFA: states=30 transitions=706 mem=3164 | per-state: trans=23.533 mem=105.467 | fragmem=0
-Pathziped_UnionDFA: states=27 transitions=703 mem=2880 | per-state: trans=26.037 mem=106.667 | fragmem=0
+Original__UnionDFA: states=56 transitions=1007 mem=5744 | per-state: trans=17.982 mem=102.571 | fragmem=84
+Minimized_UnionDFA: states=30 transitions=704 mem=3164 | per-state: trans=23.467 mem=105.467 | fragmem=0
+Pathziped_UnionDFA: states=27 transitions=701 mem=2880 | per-state: trans=25.963 mem=106.667 | fragmem=0
 total: 4  successed: 4  failed: 0  empty: 0

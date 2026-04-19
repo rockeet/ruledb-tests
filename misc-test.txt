@@ -25,7 +25,7 @@ a near     /      0 b
 a near     /      3 b
 a near     /   +  3 b
 a near     /   -  3 b
-{{[a-z]}}and{{[^f-g]}}
+{{[a-z]}}and{{[^f-g ]}}
 {{[a-z]}}and not{{[f-g]}}
 .abcde
 a and .abcde
