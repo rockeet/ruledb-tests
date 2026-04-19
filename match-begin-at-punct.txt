@@ -1,0 +1,2 @@
+# cmd args: -F osr
+(("“奋楫号”" and 盾构机) and (长江 or 下线))

@@ -1,0 +1,3 @@
+line 1: 0
+  rule 0 with fields 1
+    field "zth0" with 11 hits: [15 9]{盾构机} exact-1, [25 15]{“奋楫号”} exact-0, [47 6]{下线} exact-3, [166 9]{盾构机} exact-1, [195 6]{下线} exact-3, [271 9]{盾构机} exact-1, [300 6]{下线} exact-3, [409 9]{盾构机} exact-1, [438 6]{下线} exact-3, [573 9]{盾构机} exact-1, [602 6]{下线} exact-3,
