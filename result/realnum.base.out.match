@@ -1,22 +1,223 @@
-line 1: 0
+line 1: 0 1 4 5 8
   rule 0 with fields 2
     field "latitude" with 1 hits: [0 4]{12.4} fullmatch-0,
     field "longitude" with 1 hits: [0 4]{9.24} fullmatch-0,
-line 2: 0 1
+  rule 1 with fields 2
+    field "latitude" with 1 hits: [0 4]{12.4} fullmatch-1,
+    field "longitude" with 1 hits: [0 4]{9.24} fullmatch-1,
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 4]{12.4} fullmatch-4,
+  rule 5 with fields 1
+    field "latitude" with 1 hits: [0 4]{12.4} fullmatch-5,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 4]{12.4} fullmatch-8,
+line 2: 0 1 4 5 8
   rule 0 with fields 2
     field "latitude" with 1 hits: [0 5]{12.36} fullmatch-0,
     field "longitude" with 1 hits: [0 4]{82.4} fullmatch-0,
   rule 1 with fields 2
     field "latitude" with 1 hits: [0 5]{12.36} fullmatch-1,
     field "longitude" with 1 hits: [0 4]{82.4} fullmatch-1,
-line 3: 2
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 5]{12.36} fullmatch-4,
+  rule 5 with fields 1
+    field "latitude" with 1 hits: [0 5]{12.36} fullmatch-5,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 5]{12.36} fullmatch-8,
+line 3: 0 2 4 5 8
+  rule 0 with fields 2
+    field "latitude" with 1 hits: [0 5]{123.6} fullmatch-0,
+    field "longitude" with 1 hits: [0 4]{82.4} fullmatch-0,
   rule 2 with fields 2
     field "latitude" with 1 hits: [0 5]{123.6} fullmatch-2,
     field "longitude" with 1 hits: [0 4]{82.4} fullmatch-2,
-line 4: 0 3
-  rule 0 with fields 2
-    field "latitude" with 1 hits: [0 5]{12356} fullmatch-0,
-    field "longitude" with 1 hits: [0 4]{8214} fullmatch-0,
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 5]{123.6} fullmatch-4,
+  rule 5 with fields 1
+    field "latitude" with 1 hits: [0 5]{123.6} fullmatch-5,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 5]{123.6} fullmatch-8,
+line 4: 3 8
   rule 3 with fields 2
     field "latitude" with 1 hits: [0 5]{12356} fullmatch-3,
     field "longitude" with 1 hits: [0 4]{8214} fullmatch-3,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 5]{12356} fullmatch-8,
+line 5: 4 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 7]{4999.99} fullmatch-4,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 7]{4999.99} fullmatch-8,
+line 6: 4 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 7]{4999.10} fullmatch-4,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 7]{4999.10} fullmatch-8,
+line 7: 4 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 8]{4999.100} fullmatch-4,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 8]{4999.100} fullmatch-8,
+line 8: 8
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 8]{4999.991} fullmatch-8,
+line 9: 4 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 8]{4998.991} fullmatch-4,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 8]{4998.991} fullmatch-8,
+line 10: 8
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 8]{5998.991} fullmatch-8,
+line 11: 4 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 8]{3998.991} fullmatch-4,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 8]{3998.991} fullmatch-8,
+line 12: 4 5 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 3]{127} fullmatch-4,
+  rule 5 with fields 1
+    field "latitude" with 1 hits: [0 3]{127} fullmatch-5,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 3]{127} fullmatch-8,
+line 13: 4 5 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 6]{127.98} fullmatch-4,
+  rule 5 with fields 1
+    field "latitude" with 1 hits: [0 6]{127.98} fullmatch-5,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 6]{127.98} fullmatch-8,
+line 14: 4 5 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 6]{127.99} fullmatch-4,
+  rule 5 with fields 1
+    field "latitude" with 1 hits: [0 6]{127.99} fullmatch-5,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 6]{127.99} fullmatch-8,
+line 15: 4 5 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 7]{127.100} fullmatch-4,
+  rule 5 with fields 1
+    field "latitude" with 1 hits: [0 7]{127.100} fullmatch-5,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 7]{127.100} fullmatch-8,
+line 16: 4 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 6]{427.98} fullmatch-4,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 6]{427.98} fullmatch-8,
+line 17: 4 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 6]{427.99} fullmatch-4,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 6]{427.99} fullmatch-8,
+line 18: 4 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 7]{427.100} fullmatch-4,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 7]{427.100} fullmatch-8,
+line 19: 4 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 6]{927.98} fullmatch-4,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 6]{927.98} fullmatch-8,
+line 20: 4 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 6]{927.99} fullmatch-4,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 6]{927.99} fullmatch-8,
+line 21: 4 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 7]{927.100} fullmatch-4,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 7]{927.100} fullmatch-8,
+line 22: 4 5 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 1]{9} fullmatch-4,
+  rule 5 with fields 1
+    field "latitude" with 1 hits: [0 1]{9} fullmatch-5,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 1]{9} fullmatch-8,
+line 23: 4 5 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 4]{9.99} fullmatch-4,
+  rule 5 with fields 1
+    field "latitude" with 1 hits: [0 4]{9.99} fullmatch-5,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 4]{9.99} fullmatch-8,
+line 24: 4 5 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 1]{4} fullmatch-4,
+  rule 5 with fields 1
+    field "latitude" with 1 hits: [0 1]{4} fullmatch-5,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 1]{4} fullmatch-8,
+line 25: 4 5 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 4]{4.99} fullmatch-4,
+  rule 5 with fields 1
+    field "latitude" with 1 hits: [0 4]{4.99} fullmatch-5,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 4]{4.99} fullmatch-8,
+line 26: 4 5 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 1]{5} fullmatch-4,
+  rule 5 with fields 1
+    field "latitude" with 1 hits: [0 1]{5} fullmatch-5,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 1]{5} fullmatch-8,
+line 27: 4 5 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 4]{5.99} fullmatch-4,
+  rule 5 with fields 1
+    field "latitude" with 1 hits: [0 4]{5.99} fullmatch-5,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 4]{5.99} fullmatch-8,
+line 28: 4 5 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 5]{-5.99} fullmatch-4,
+  rule 5 with fields 1
+    field "latitude" with 1 hits: [0 5]{-5.99} fullmatch-5,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 5]{-5.99} fullmatch-8,
+line 29: 4 7
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 3]{-83} fullmatch-4,
+  rule 7 with fields 1
+    field "latitude" with 1 hits: [0 3]{-83} fullmatch-7,
+line 30: 4 6 7
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 6]{-83.00} fullmatch-4,
+  rule 6 with fields 1
+    field "latitude" with 1 hits: [0 6]{-83.00} fullmatch-6,
+  rule 7 with fields 1
+    field "latitude" with 1 hits: [0 6]{-83.00} fullmatch-7,
+line 31: 4 8 9
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 3]{-70} fullmatch-4,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 3]{-70} fullmatch-8,
+  rule 9 with fields 1
+    field "latitude" with 1 hits: [0 3]{-70} fullmatch-9,
+line 32: 4 8 9
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 6]{-70.21} fullmatch-4,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 6]{-70.21} fullmatch-8,
+  rule 9 with fields 1
+    field "latitude" with 1 hits: [0 6]{-70.21} fullmatch-9,
+line 33: 4 6 7
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 15]{-170.9999999999} fullmatch-4,
+  rule 6 with fields 1
+    field "latitude" with 1 hits: [0 15]{-170.9999999999} fullmatch-6,
+  rule 7 with fields 1
+    field "latitude" with 1 hits: [0 15]{-170.9999999999} fullmatch-7,
+line 34: 4 5 8
+  rule 4 with fields 1
+    field "latitude" with 1 hits: [0 11]{-7.99999999} fullmatch-4,
+  rule 5 with fields 1
+    field "latitude" with 1 hits: [0 11]{-7.99999999} fullmatch-5,
+  rule 8 with fields 1
+    field "latitude" with 1 hits: [0 11]{-7.99999999} fullmatch-8,
